@@ -1,0 +1,7 @@
+client_162a9583_fa8e_424c_93ce_c2e68f4f964e {
+	SetTextContext(instance = $instance, text = ToString(300))
+	StartTimer2(interval = 20, time = 300, timer = "") {
+		SetUIVar(instance = $instance, key = "TimeValue", value = GetUIVar(instance = $instance, key = "TimeValue") - 1)
+		SetTextContext(instance = $instance, text = ToString(GetUIVar(instance = $instance, key = "TimeValue")))
+	}
+}

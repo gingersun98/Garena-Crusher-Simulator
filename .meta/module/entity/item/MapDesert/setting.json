@@ -1,0 +1,22 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Orange Desert Path/map4.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "entity_MapDesert"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "74a66970b6e7572e67c2dd1aba7ad2d7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

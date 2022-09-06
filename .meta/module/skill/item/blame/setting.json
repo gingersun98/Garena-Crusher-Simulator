@@ -1,0 +1,42 @@
+{
+  "data": {
+    "castAction": "skills",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_blame"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/fireball",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ec734d72a253be797fba3ba5bd4f66ed",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

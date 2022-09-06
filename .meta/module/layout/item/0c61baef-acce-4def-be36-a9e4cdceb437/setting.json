@@ -1,0 +1,54 @@
+{
+  "data": {
+    "md5": "1fcbcd1282243492ea83eaaa2e4ab874",
+    "path": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "d5f565d8-960d-45c9-86a1-7bc414deefe2"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon33.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 64
+            },
+            "UDim_Y": {
+              "Offect": 64
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "05cfb4a4-e643-4bf7-a25d-c5e1c4c3be6e"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 128
+        },
+        "UDim_Y": {
+          "Offect": 128
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "1fcbcd1282243492ea83eaaa2e4ab874",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

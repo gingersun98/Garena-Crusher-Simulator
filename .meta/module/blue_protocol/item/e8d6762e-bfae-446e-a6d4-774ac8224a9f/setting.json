@@ -1,0 +1,25 @@
+{
+  "data": {
+    "id": {
+      "value": "e8d6762e-bfae-446e-a6d4-774ac8224a9f"
+    },
+    "name": "ObjectivesPlayer",
+    "params": [
+      {
+        "param_name": "ObjectivesPlayer",
+        "param_type": "T_String",
+        "param_type_old": "T_String",
+        "value": {
+          "__OBJ_TYPE": "T_String"
+        }
+      }
+    ],
+    "register_object": "layout/956f303e-9258-4d95-b89e-1e74529c2401/root/children/1/children/1/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

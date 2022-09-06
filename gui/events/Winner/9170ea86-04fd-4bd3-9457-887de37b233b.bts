@@ -1,0 +1,3 @@
+client_5224f48f_2121_4734_a243_901a49c0dde8 {
+	SetTextContext(instance = $instance, text = $p_LOSSER)
+}

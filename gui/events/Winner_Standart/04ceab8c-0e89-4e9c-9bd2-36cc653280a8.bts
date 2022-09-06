@@ -1,0 +1,73 @@
+ClientCustomTrigger_1 {
+							If (GetUIVar(key = "Prize") == 1) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/BloodTesseract.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_97b6429d_7556_4374_8a90_7f0d6c457a29")
+	} ElseIf (GetUIVar(key = "Prize") == 2) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/LightTesseract.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_151873ad_bea2_4052_879a_0a5a11729f7d")
+	} ElseIf (GetUIVar(key = "Prize") == 3) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/UnstabbleTimeTesseract.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_75bd66bd_cd7f_4a33_b517_4438286446ea")
+	} ElseIf (GetUIVar(key = "Prize") == 4) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/CoinDepan.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_923a0a4c_49ab_478a_88a2_fb1c05e05d1c")
+	} ElseIf (GetUIVar(key = "Prize") == 5) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/CoinBelakang.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_6f4f9744_5ed9_469a_9540_c7244c641955")
+	} ElseIf (GetUIVar(key = "Prize") == 6) {
+		SetShowImage(
+			image = "gameres|asset/3D Asset/CoinBelakang.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_6f4f9744_5ed9_469a_9540_c7244c641955")
+	} ElseIf (GetUIVar(key = "Prize") >= 7) {
+		SetShowImage(
+			image = "gameres|asset/resources/copper_coin.png",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_923a0a4c_49ab_478a_88a2_fb1c05e05d1c")
+		SetTextContext(text = "934a1238-1be8-4be3-a2c7-c7b21ab3918a")
+	}
+}
+
+WIDGET_CREATE {
+	SetUIVar(instance = $rootInstance, key = "Prize", value = Random(max = 10, min = 1))
+							If (GetUIVar(key = "Prize") == 1) {
+		SetShowImage(image = "gameres|asset/3D Asset/BloodTesseract.png", instance = $rootInstance)
+		SendToServer(msg = "server_97b6429d_7556_4374_8a90_7f0d6c457a29")
+	} ElseIf (GetUIVar(key = "Prize") == 2) {
+		SetShowImage(image = "gameres|asset/3D Asset/LightTesseract.png", instance = $rootInstance)
+		SendToServer(msg = "server_151873ad_bea2_4052_879a_0a5a11729f7d")
+	} ElseIf (GetUIVar(key = "Prize") == 3) {
+		SetShowImage(image = "gameres|asset/3D Asset/UnstabbleTimeTesseract.png", instance = $rootInstance)
+		SendToServer(msg = "server_75bd66bd_cd7f_4a33_b517_4438286446ea")
+	} ElseIf (GetUIVar(key = "Prize") == 4) {
+		SetShowImage(image = "gameres|asset/3D Asset/CoinDepan.png", instance = $rootInstance)
+		SendToServer(msg = "server_923a0a4c_49ab_478a_88a2_fb1c05e05d1c")
+	} ElseIf (GetUIVar(key = "Prize") == 5) {
+		SetShowImage(image = "gameres|asset/3D Asset/CoinBelakang.png", instance = $rootInstance)
+		SendToServer(msg = "server_6f4f9744_5ed9_469a_9540_c7244c641955")
+	} ElseIf (GetUIVar(key = "Prize") == 6) {
+		SetShowImage(image = "gameres|asset/3D Asset/CoinBelakang.png", instance = $rootInstance)
+		SendToServer(msg = "server_6f4f9744_5ed9_469a_9540_c7244c641955")
+	} ElseIf (GetUIVar(key = "Prize") >= 7) {
+		SetShowImage(image = "gameres|asset/resources/copper_coin.png", instance = $rootInstance)
+		SendToServer(msg = "server_923a0a4c_49ab_478a_88a2_fb1c05e05d1c")
+		SetTextContext(text = "b2724b58-9c42-4b6b-b1d3-3bea17f5250e")
+	}
+}

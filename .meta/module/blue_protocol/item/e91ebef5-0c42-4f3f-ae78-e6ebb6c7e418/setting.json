@@ -1,0 +1,20 @@
+{
+  "data": {
+    "id": {
+      "value": "e91ebef5-0c42-4f3f-ae78-e6ebb6c7e418"
+    },
+    "name": "ObtainPlayer_1",
+    "params": [
+      {
+        "param_name": "ObtainPlayer"
+      }
+    ],
+    "register_object": "layout/956f303e-9258-4d95-b89e-1e74529c2401/root/children/1/children/2/children/1/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

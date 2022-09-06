@@ -1,0 +1,4522 @@
+{
+  "data": {
+    "md5": "5017fa00b83705aead6684d85c261a12",
+    "path": "asset/Winner_Standart.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "14f30356-3420-4105-bef2-149c5ab47afd"
+                  },
+                  "name": "Victory",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -5.182975769043,
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "YOU WIN",
+                  "TextColours": {
+                    "g": 255,
+                    "r": 85
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "9b13b139-31a7-4d87-ad76-b81d9b506c60"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/shop6.png.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 1018
+                },
+                "UDim_Y": {
+                  "Offect": 168
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "f713631e-ad1e-4ee6-8f90-9879cbcc2720"
+              },
+              "name": "KillsAsli",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "e79aaf8b-7af9-4fe3-8c04-a420ca732cc2"
+              },
+              "name": "ScorePlayer1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.68
+                }
+              },
+              "Text": "Player",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "1234e6fa-2575-4c55-a002-f8e1f57ded8b"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Offect": 4.5531315803528,
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 300
+                },
+                "UDim_Y": {
+                  "Offect": 90
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "93f82965-3da2-44eb-a430-4605b5ebed0c"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "900e0588-9cf7-4abd-9604-40a0b3e0f094"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_展示台.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Scale": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "599fadb6-5baf-458c-b6b5-4a38a8289a9f"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 512
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "66fe065c-5159-4b8d-b9a5-234c7d4f1a35"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Image2",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4173a82f-8df1-4197-b7f8-4b48fe38755d"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "Text": "CONFIRM",
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "2a928e06-256c-4f0e-8925-cb313da8f129"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/icon_go.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "id": {
+            "value": "b3669927-fbb9-4884-9072-a5943a7c0b25"
+          },
+          "name": "determind",
+          "NormalImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          },
+          "Text": "",
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_If",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Condition",
+                        "children": [
+                          {
+                            "action": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                          },
+                          {
+                            "action": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "01ca99e2-7e63-49ae-a6bd-c4fcdd9c91ec"
+                    },
+                    "pos": {
+                      "x": 244,
+                      "y": 494
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f",
+                              "rawval": true
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                          },
+                          {
+                            "action": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                    },
+                    "pos": {
+                      "x": 520,
+                      "y": 400
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f"
+                    },
+                    "pos": {
+                      "x": 703,
+                      "y": 119
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                          },
+                          {
+                            "action": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                          },
+                          {
+                            "action": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                    },
+                    "pos": {
+                      "x": 523.5,
+                      "y": 458.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                    },
+                    "pos": {
+                      "x": 720.5,
+                      "y": 377.5
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_TriggerCustom",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "key": "triggerNameForExecXXX",
+                            "value": {
+                              "__OBJ_TYPE": "T_String",
+                              "rawval": "ClientCustomTrigger_1"
+                            }
+                          },
+                          {
+                            "key": "cfgForExecXXX",
+                            "must": true,
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "custom_trigger_name": "ClientCustomTrigger_1",
+                    "id": {
+                      "value": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                    },
+                    "is_server": false,
+                    "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                    "pos": {
+                      "x": 779,
+                      "y": 850
+                    },
+                    "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "272eb623-2e31-4069-beb2-765187989d9a"
+                    },
+                    "pos": {
+                      "x": 1117,
+                      "y": 522
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                    },
+                    "pos": {
+                      "x": 1254,
+                      "y": 846
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Random",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 1
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 10
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                    },
+                    "pos": {
+                      "x": 1128,
+                      "y": 679
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Prize"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "272eb623-2e31-4069-beb2-765187989d9a"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "action": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                    },
+                    "pos": {
+                      "x": 766,
+                      "y": 492
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                    },
+                    "pos": {
+                      "x": 744,
+                      "y": 984
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                    },
+                    "pos": {
+                      "x": 769,
+                      "y": 230
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                    },
+                    "pos": {
+                      "x": 1121,
+                      "y": 352
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                        "proto_name": "Add250Coin",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 47
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                    },
+                    "pos": {
+                      "x": 370,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_DestoryWidget",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                    },
+                    "pos": {
+                      "x": 48,
+                      "y": 296
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                    },
+                    "pos": {
+                      "x": 375,
+                      "y": 222
+                    },
+                    "type": "T_Layout"
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "e3c248d8-0187-407a-bff3-a2a7e5bd7a0c"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                        },
+                        {
+                          "action": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                        },
+                        {
+                          "action": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "1ed93299-1134-4ee6-813c-cb431f0800a3"
+                  },
+                  "pos": {
+                    "x": 87,
+                    "y": 33
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "59fece28-27e0-4c5c-a4c6-d3b941882300"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/achievement.png"
+              },
+              "ImageBlendMode": "1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 64
+                },
+                "UDim_Y": {
+                  "Offect": 64
+                }
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b",
+                            "proto_name": "OpenLeaderboard",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "c8fc55b9-c64a-41d1-b0b4-28f5c2d82d13"
+                        },
+                        "pos": {
+                          "x": 563,
+                          "y": 268
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "35f4facb-b229-4bb5-adf4-152d567f7ca6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "c8fc55b9-c64a-41d1-b0b4-28f5c2d82d13"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "54c0587a-50b0-42c7-835b-034915b7ebc3"
+                      },
+                      "pos": {
+                        "x": 258,
+                        "y": 273
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "id": {
+            "value": "16babdf4-07d3-463f-ae0e-238103887d7c"
+          },
+          "name": "LEADEROARD",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_03.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b",
+                        "proto_name": "OpenLeaderboard",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 232
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "2fa8b6f4-5fa6-4816-8c4f-c3c13c038ec1"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "92165da9-ad0c-448c-a5dd-741a9167f06c"
+                  },
+                  "pos": {
+                    "x": 105,
+                    "y": 199
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "c2c9b435-7178-492a-a2e8-278cd11a4fe3"
+              },
+              "Text": "CRUSH SCORE",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "42dbaa4f-1ff3-4fd3-a585-61aa5c6f77fd"
+              },
+              "name": "NumberCrush",
+              "Text": "120",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "79177d39-0da2-49da-92d8-5fa1d72dcc7b"
+              },
+              "name": "ScorePlayer",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "c489b9a3-2d3f-4db6-b2f0-fcab936abeb3"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon34.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 15,
+          "HorzFormatting": "RightAligned",
+          "id": {
+            "value": "399e5400-04c1-4573-a1ab-d3685856c127"
+          },
+          "Text": "CRUSH SCORE",
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "BottomAligned",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "867f4643-b34f-4391-b316-255c22927531"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/CoinDepan.png"
+              },
+              "name": "Image11",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "id": {
+                    "value": "ca1d9f16-6fca-4d5a-b69b-55cd0106a2a9"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 250
+                    },
+                    "UDim_Y": {
+                      "Offect": 250
+                    }
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "deb7e766-ff76-443d-96a6-b7c9aaeaf609"
+                            },
+                            "pos": {
+                              "x": 349,
+                              "y": 179
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  []
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                            },
+                            "pos": {
+                              "x": 494,
+                              "y": 112
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                            },
+                            "pos": {
+                              "x": 1024,
+                              "y": 77
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 3
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                            },
+                            "pos": {
+                              "x": 693,
+                              "y": 32
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "bd0f03b6-3deb-4b65-8d7d-39ca9dcd656e"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                []
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "3fbe2258-54db-41a0-8ade-ca00886d17b3"
+                          },
+                          "pos": {
+                            "x": 111,
+                            "y": 127
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "50134f62-6ff6-4fec-aaf7-0afd03aec0ec"
+                  },
+                  "Image": {
+                    "asset": "asset/3D Asset/CoinDepan.png"
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "ad886783-c76d-44ae-8087-caa994c4b0fb"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 1
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "519bd0b4-a2b2-4e35-bd1f-b732dfc7d282"
+                            },
+                            "pos": {
+                              "x": 580.5
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "de3aa27c-98ab-4650-8b7e-484226417009"
+                                  },
+                                  {
+                                    "action": "abc7c4b7-7f13-451c-906d-c483ce3be059"
+                                  },
+                                  {
+                                    "action": "f10c3b26-6b30-4e30-a322-a5c50abd1b18"
+                                  },
+                                  {
+                                    "action": "7c360f8a-3da6-4d9a-9c27-7c8a2ce1a198"
+                                  },
+                                  {
+                                    "action": "55b6fad0-c556-4fc2-86e7-031efd2d0a6a"
+                                  },
+                                  {
+                                    "action": "03c1dcbe-33d9-450d-9e2d-d36d98571a6c"
+                                  },
+                                  {
+                                    "action": "31eb5ceb-a22a-4a43-b81a-d32768a59d5c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "a302d6f6-de47-400a-8262-ea3bbcf852ab"
+                            },
+                            "pos": {
+                              "x": 133.37844494337,
+                              "y": 1202.0812010094
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "519bd0b4-a2b2-4e35-bd1f-b732dfc7d282",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "c8de8600-8935-478d-bfc1-1561882a23aa"
+                                  },
+                                  {
+                                    "action": "7f003ec5-8bcc-4395-a2d5-17e20ce8f81a"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "de3aa27c-98ab-4650-8b7e-484226417009"
+                            },
+                            "pos": {
+                              "x": 381.5,
+                              "y": 58.5
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "ad886783-c76d-44ae-8087-caa994c4b0fb"
+                            },
+                            "pos": {
+                              "x": 911.5,
+                              "y": 23.5
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "813c850f-425c-4d5b-8659-72a67df4376b"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/BloodTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/BloodTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "c8de8600-8935-478d-bfc1-1561882a23aa"
+                            },
+                            "pos": {
+                              "x": 567.6745861316,
+                              "y": 194.30773552342
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "813c850f-425c-4d5b-8659-72a67df4376b"
+                            },
+                            "pos": {
+                              "x": 993,
+                              "y": 221
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "1270dd45-4d59-4daf-a463-507ccb800de3",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "688a4706-8c15-4281-b7c0-31815441af3a"
+                                  },
+                                  {
+                                    "action": "7a25ae1f-1fb6-43bf-a477-965506579cf2"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "abc7c4b7-7f13-451c-906d-c483ce3be059"
+                            },
+                            "pos": {
+                              "x": 380,
+                              "y": 437
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "8aaa54f0-6251-426c-b34d-df5a8793ae7d"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 2
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "1270dd45-4d59-4daf-a463-507ccb800de3"
+                            },
+                            "pos": {
+                              "x": 620,
+                              "y": 445
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "8aaa54f0-6251-426c-b34d-df5a8793ae7d"
+                            },
+                            "pos": {
+                              "x": 996,
+                              "y": 387
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "64587e04-8bfe-46ae-a7fd-8f09c52fcaa1"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/LightTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/LightTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "688a4706-8c15-4281-b7c0-31815441af3a"
+                            },
+                            "pos": {
+                              "x": 600.15808076302,
+                              "y": 594.28009815267
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "64587e04-8bfe-46ae-a7fd-8f09c52fcaa1"
+                            },
+                            "pos": {
+                              "x": 1003.9692032142,
+                              "y": 637.95658057739
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "df9907e1-5ddf-4a09-b12c-ad564756e0cf"
+                            },
+                            "pos": {
+                              "x": 1025.778607518,
+                              "y": 810.07733860094
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "2d6b0b52-1205-4748-927d-c8c1ea960f5d",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "dddd2b7e-8d5e-4dfe-8ef7-c3d5522af073"
+                                  },
+                                  {
+                                    "action": "68777493-35d2-4395-8c21-e9225bb49b1d"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f10c3b26-6b30-4e30-a322-a5c50abd1b18"
+                            },
+                            "pos": {
+                              "x": 409.77860751799,
+                              "y": 860.07733860095
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "ca18ee76-1a9a-4f42-854f-2c2d9f653c09"
+                            },
+                            "pos": {
+                              "x": 1033.7478107322,
+                              "y": 1061.0339191784
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "ca18ee76-1a9a-4f42-854f-2c2d9f653c09"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/UnstabbleTimeTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/UnstabbleTimeTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "dddd2b7e-8d5e-4dfe-8ef7-c3d5522af073"
+                            },
+                            "pos": {
+                              "x": 633.52840093305,
+                              "y": 1064.4545978946
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "df9907e1-5ddf-4a09-b12c-ad564756e0cf"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 3
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "2d6b0b52-1205-4748-927d-c8c1ea960f5d"
+                            },
+                            "pos": {
+                              "x": 649.77860751799,
+                              "y": 868.07733860095
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "475fb65b-cfed-43bf-90dd-cc01529e2714"
+                            },
+                            "pos": {
+                              "x": 1010.3855532949,
+                              "y": 1316.3377886034
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "ef525a38-82f8-4a63-876a-4d8bb4e2d7d3",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "73059ff7-a461-4228-990e-347c967838d8"
+                                  },
+                                  {
+                                    "action": "8096631c-d825-4f77-ab6d-53a639741b59"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "7c360f8a-3da6-4d9a-9c27-7c8a2ce1a198"
+                            },
+                            "pos": {
+                              "x": 394.38555329493,
+                              "y": 1366.3377886034
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "85a54358-ee1b-4ed9-aa4c-ae66858dd236"
+                            },
+                            "pos": {
+                              "x": 1052.5615436715,
+                              "y": 1675.0457487421
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "85a54358-ee1b-4ed9-aa4c-ae66858dd236"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinDepan.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinDepan.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "73059ff7-a461-4228-990e-347c967838d8"
+                            },
+                            "pos": {
+                              "x": 618.13534670999,
+                              "y": 1570.715047897
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "475fb65b-cfed-43bf-90dd-cc01529e2714"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 4
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "ef525a38-82f8-4a63-876a-4d8bb4e2d7d3"
+                            },
+                            "pos": {
+                              "x": 634.38555329493,
+                              "y": 1374.3377886034
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "97b6429d-7556-4374-8a90-7f0d6c457a29",
+                                "proto_name": "PrizeBlood",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "7f003ec5-8bcc-4395-a2d5-17e20ce8f81a"
+                            },
+                            "pos": {
+                              "x": 709.36324877874,
+                              "y": 364.5588341825
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "151873ad-bea2-4052-879a-0a5a11729f7d",
+                                "proto_name": "PrizeLight",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "7a25ae1f-1fb6-43bf-a477-965506579cf2"
+                            },
+                            "pos": {
+                              "x": 598.02015656537,
+                              "y": 775.80993284156
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "75bd66bd-cd7f-4a33-b517-4438286446ea",
+                                "proto_name": "PrizeTime",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "68777493-35d2-4395-8c21-e9225bb49b1d"
+                            },
+                            "pos": {
+                              "x": 633.93728308581,
+                              "y": 1269.6704224976
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "923a0a4c-49ab-478a-88a2-fb1c05e05d1c",
+                                "proto_name": "Add100Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "8096631c-d825-4f77-ab6d-53a639741b59"
+                            },
+                            "pos": {
+                              "x": 633.93728308581,
+                              "y": 1826.3858835645
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "3006c4ce-80c2-41a9-8d1f-5c4f3afdbc16"
+                            },
+                            "pos": {
+                              "x": 1039.5963181065,
+                              "y": 2205.7336453091
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "3006c4ce-80c2-41a9-8d1f-5c4f3afdbc16"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinBelakang.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinBelakang.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "7278d1f0-28be-4909-8c32-8f73613300dd"
+                            },
+                            "pos": {
+                              "x": 605.17012114494,
+                              "y": 2101.402944464
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "8159d750-15f1-417b-8502-c16fa726548f"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 5
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "8d507db7-37f0-424d-bc04-3bc2261cd047"
+                            },
+                            "pos": {
+                              "x": 621.42032772988,
+                              "y": 1905.0256851704
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "8159d750-15f1-417b-8502-c16fa726548f"
+                            },
+                            "pos": {
+                              "x": 997.42032772985,
+                              "y": 1847.0256851704
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "8d507db7-37f0-424d-bc04-3bc2261cd047",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "7278d1f0-28be-4909-8c32-8f73613300dd"
+                                  },
+                                  {
+                                    "action": "8705dad8-cffe-4fd8-a9d5-d8bd492e9f3a"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "55b6fad0-c556-4fc2-86e7-031efd2d0a6a"
+                            },
+                            "pos": {
+                              "x": 381.42032772988,
+                              "y": 1897.0256851704
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                                "proto_name": "Add250Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "8705dad8-cffe-4fd8-a9d5-d8bd492e9f3a"
+                            },
+                            "pos": {
+                              "x": 612.77464531151,
+                              "y": 2345.6082625595
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "038dd8bd-948e-420f-b1c1-2a7276a18b7e"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinBelakang.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinBelakang.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "cc55f140-f82f-402b-9638-eb3e0a625886"
+                            },
+                            "pos": {
+                              "x": 609.82410579285,
+                              "y": 2656.3058917064
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "e5f4b2e4-e39a-4711-a0e5-f5c00feb5475"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 6
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "df06cb24-aaf2-47db-afe6-45f03d50a045"
+                            },
+                            "pos": {
+                              "x": 626.07431237779,
+                              "y": 2459.9286324128
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "df06cb24-aaf2-47db-afe6-45f03d50a045",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "cc55f140-f82f-402b-9638-eb3e0a625886"
+                                  },
+                                  {
+                                    "action": "16784f31-9b85-4c4a-bff9-bfaec97b0a75"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "03c1dcbe-33d9-450d-9e2d-d36d98571a6c"
+                            },
+                            "pos": {
+                              "x": 386.07431237779,
+                              "y": 2451.9286324128
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "e5f4b2e4-e39a-4711-a0e5-f5c00feb5475"
+                            },
+                            "pos": {
+                              "x": 1002.0743123777,
+                              "y": 2401.9286324128
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "038dd8bd-948e-420f-b1c1-2a7276a18b7e"
+                            },
+                            "pos": {
+                              "x": 1044.2503027544,
+                              "y": 2760.6365925515
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                                "proto_name": "Add250Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "16784f31-9b85-4c4a-bff9-bfaec97b0a75"
+                            },
+                            "pos": {
+                              "x": 617.42862995942,
+                              "y": 2900.5112098019
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "2e891448-c100-4f25-b3d3-6d09d0dc740c"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/resources/copper_coin.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/resources/copper_coin.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "d1cf10af-1e1f-4caf-ab78-4fff15aa9ff4"
+                            },
+                            "pos": {
+                              "x": 622.23473152067,
+                              "y": 3267.5292088019
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "5761dfc9-46ae-49f0-b0d4-138e0662b59b"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": ">="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 7
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "d88eae93-c227-4722-9c47-079aeddb8dbf"
+                            },
+                            "pos": {
+                              "x": 638.48493810561,
+                              "y": 3071.1519495083
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "d88eae93-c227-4722-9c47-079aeddb8dbf",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "d1cf10af-1e1f-4caf-ab78-4fff15aa9ff4"
+                                  },
+                                  {
+                                    "action": "02b9086f-92d9-4681-af9a-6c69dff1cd03"
+                                  },
+                                  {
+                                    "action": "089211b7-c9a1-415d-ad0b-7ee67db3c590"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "31eb5ceb-a22a-4a43-b81a-d32768a59d5c"
+                            },
+                            "pos": {
+                              "x": 398.48493810561,
+                              "y": 3063.1519495083
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "5761dfc9-46ae-49f0-b0d4-138e0662b59b"
+                            },
+                            "pos": {
+                              "x": 1014.4849381056,
+                              "y": 3013.1519495083
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "2e891448-c100-4f25-b3d3-6d09d0dc740c"
+                            },
+                            "pos": {
+                              "x": 1056.6609284822,
+                              "y": 3371.859909647
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "923a0a4c-49ab-478a-88a2-fb1c05e05d1c",
+                                "proto_name": "Add100Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "02b9086f-92d9-4681-af9a-6c69dff1cd03"
+                            },
+                            "pos": {
+                              "x": 601.965,
+                              "y": 3505.95
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetTextContext",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Text",
+                                      "rawval": {
+                                        "value": "934a1238-1be8-4be3-a2c7-c7b21ab3918a"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "089211b7-c9a1-415d-ad0b-7ee67db3c590"
+                            },
+                            "pos": {
+                              "x": 557.15275208225,
+                              "y": 3609.0193194582
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "ClientCustomTrigger_1"
+                          },
+                          "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910",
+                          "type": "Trigger_Custom_Client"
+                        },
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "a302d6f6-de47-400a-8262-ea3bbcf852ab"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": 131
+                          }
+                        },
+                        "type": "Trigger_Custom_Client"
+                      },
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_SetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout",
+                                      "action": "497b5593-2007-4d14-9c65-4913e5568171"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Int",
+                                      "action": "b6a58bb1-a5c4-48bf-9f97-fa88fc925d5a"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "d76609bc-02d5-4490-9d88-7aff16850292"
+                            },
+                            "pos": {
+                              "x": 702,
+                              "y": 164.5
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Random",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Int",
+                                      "rawval": 1
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Int",
+                                      "rawval": 10
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "b6a58bb1-a5c4-48bf-9f97-fa88fc925d5a"
+                            },
+                            "pos": {
+                              "x": 1064,
+                              "y": 351.5
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "497b5593-2007-4d14-9c65-4913e5568171"
+                            },
+                            "pos": {
+                              "x": 1059,
+                              "y": 221.5
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                                "proto_name": "Add250Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "0b88ca9b-b591-49f3-a6da-d212aa20e91e"
+                            },
+                            "pos": {
+                              "x": 1083.0520445112,
+                              "y": 2492.5143657098
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "f89413b6-c72f-4e78-987c-1440e94e3534"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 5
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "c12751f8-1285-4f80-b3a8-6f0b485f0ade"
+                            },
+                            "pos": {
+                              "x": 1091.6977269296,
+                              "y": 2051.9317883207
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "e4897c97-f48c-4a1a-9ad3-0cd7485a1ef8"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/BloodTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/BloodTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "509d33ea-f059-4d12-91eb-6c755ff0ae47"
+                            },
+                            "pos": {
+                              "x": 1189.4391856216,
+                              "y": 281.7987704325
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "a05c20e5-d964-4d88-9deb-a68cffb046b0"
+                            },
+                            "pos": {
+                              "x": 1668.4628535125,
+                              "y": 389.30581579981
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "1c6085fd-246c-46db-ab67-2ddeda0af7f1"
+                            },
+                            "pos": {
+                              "x": 1496.0560067177,
+                              "y": 956.98344175121
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "14b671da-dc3a-4aaf-9484-1e332c80c387",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "d301a43a-bd65-4ae8-b242-0813391913f6"
+                                  },
+                                  {
+                                    "action": "a9a85f4f-4230-4423-9289-da85269e01dc"
+                                  },
+                                  {
+                                    "action": "740336e8-72ca-45fc-97bd-f54e183cf6f1"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f5edb4b3-0aef-4928-9c6b-733b3efd0fad"
+                            },
+                            "pos": {
+                              "x": 868.76233730528,
+                              "y": 3210.0580526586
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "923a0a4c-49ab-478a-88a2-fb1c05e05d1c",
+                                "proto_name": "Add100Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "e2d480da-8b01-4f66-8ab9-3849a392a3e1"
+                            },
+                            "pos": {
+                              "x": 1104.2146822855,
+                              "y": 1973.2919867148
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "b209b993-b6ce-4524-9458-8c73c698dbb6"
+                            },
+                            "pos": {
+                              "x": 1480.6629524946,
+                              "y": 1463.2438917537
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "4610352e-cdf9-406d-b573-1b821151f8c0",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "509d33ea-f059-4d12-91eb-6c755ff0ae47"
+                                  },
+                                  {
+                                    "action": "946021dd-a5fd-4f4b-ae70-ad90cd7e7aa1"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "6274f1bb-a567-4809-92fb-9bdbe175366a"
+                            },
+                            "pos": {
+                              "x": 845.26182069256,
+                              "y": 356.72792326426
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "3e636154-798d-4755-9dab-ebd2dd08d899"
+                            },
+                            "pos": {
+                              "x": 1484.7623373053,
+                              "y": 3160.0580526586
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "6274f1bb-a567-4809-92fb-9bdbe175366a"
+                                  },
+                                  {
+                                    "action": "e878f63d-581c-46f1-a7ff-b0cc31ccf8d6"
+                                  },
+                                  {
+                                    "action": "e34ecaba-bf9c-4c51-b009-7a0fe4c078db"
+                                  },
+                                  {
+                                    "action": "479fdf6f-37c9-4dea-af31-adad95754361"
+                                  },
+                                  {
+                                    "action": "0340586c-af65-4818-8c52-ffea30c77f1f"
+                                  },
+                                  {
+                                    "action": "22769449-587b-438e-9198-7ec1b712e0c8"
+                                  },
+                                  {
+                                    "action": "f5edb4b3-0aef-4928-9c6b-733b3efd0fad"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "2d8dcae2-90a6-44ad-8f7c-e9962155425f"
+                            },
+                            "pos": {
+                              "x": 603.65584414304,
+                              "y": 1348.9873041597
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "1c6085fd-246c-46db-ab67-2ddeda0af7f1"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 3
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "524be46c-0a82-413e-a00a-23550933b3d6"
+                            },
+                            "pos": {
+                              "x": 1120.0560067177,
+                              "y": 1014.9834417512
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "18409c8b-fe9e-4410-9334-5a6aa38a4d09"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinBelakang.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinBelakang.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f0f61936-ae8e-46ad-a0b6-fec917ab5ac4"
+                            },
+                            "pos": {
+                              "x": 1080.1015049925,
+                              "y": 2803.2119948567
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "a05c20e5-d964-4d88-9deb-a68cffb046b0"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 1
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "4610352e-cdf9-406d-b573-1b821151f8c0"
+                            },
+                            "pos": {
+                              "x": 1050.7773991997,
+                              "y": 519.617385942
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "af01cfcb-b356-413d-8a8d-19298fc2b191"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 6
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f5a06af4-0e04-41c1-8d32-69cac554ab13"
+                            },
+                            "pos": {
+                              "x": 1096.3517115775,
+                              "y": 2606.8347355631
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "75bd66bd-cd7f-4a33-b517-4438286446ea",
+                                "proto_name": "PrizeTime",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "660142d9-c27a-4dac-8542-e07afb9a81de"
+                            },
+                            "pos": {
+                              "x": 1104.2146822855,
+                              "y": 1416.5765256479
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "c12751f8-1285-4f80-b3a8-6f0b485f0ade",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "1da7254f-828f-48d2-8401-1de677917d6e"
+                                  },
+                                  {
+                                    "action": "0b88ca9b-b591-49f3-a6da-d212aa20e91e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "0340586c-af65-4818-8c52-ffea30c77f1f"
+                            },
+                            "pos": {
+                              "x": 851.69772692955,
+                              "y": 2043.9317883207
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "b209b993-b6ce-4524-9458-8c73c698dbb6"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 4
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "c72745d4-a838-4c16-a006-3cb05a230955"
+                            },
+                            "pos": {
+                              "x": 1104.6629524946,
+                              "y": 1521.2438917537
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "151873ad-bea2-4052-879a-0a5a11729f7d",
+                                "proto_name": "PrizeLight",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "6eced002-9731-47cc-a678-34fbbadc7a32"
+                            },
+                            "pos": {
+                              "x": 1068.2975557651,
+                              "y": 922.71603599183
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "1aa5c06e-5ed8-47a0-83f8-ab20bdb031fd"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/resources/copper_coin.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/resources/copper_coin.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "d301a43a-bd65-4ae8-b242-0813391913f6"
+                            },
+                            "pos": {
+                              "x": 1092.5121307204,
+                              "y": 3414.4353119522
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "c72745d4-a838-4c16-a006-3cb05a230955",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "89e92b06-c8c2-4e35-9df9-f49ffc91e1c2"
+                                  },
+                                  {
+                                    "action": "e2d480da-8b01-4f66-8ab9-3849a392a3e1"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "479fdf6f-37c9-4dea-af31-adad95754361"
+                            },
+                            "pos": {
+                              "x": 864.6629524946,
+                              "y": 1513.2438917537
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "2be1bd21-36f3-4b34-972d-d521f708305f"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/LightTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/LightTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "3ee40605-cd4e-4813-9bc4-62ea4c468af3"
+                            },
+                            "pos": {
+                              "x": 1070.4354799627,
+                              "y": 741.18620130294
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "97b6429d-7556-4374-8a90-7f0d6c457a29",
+                                "proto_name": "PrizeBlood",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "946021dd-a5fd-4f4b-ae70-ad90cd7e7aa1"
+                            },
+                            "pos": {
+                              "x": 1179.6406479784,
+                              "y": 519.617385942
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "3e636154-798d-4755-9dab-ebd2dd08d899"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": ">="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 7
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "14b671da-dc3a-4aaf-9484-1e332c80c387"
+                            },
+                            "pos": {
+                              "x": 1108.7623373053,
+                              "y": 3218.0580526586
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "be26cdf5-a80a-4abd-becc-21f556577179"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinBelakang.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinBelakang.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "1da7254f-828f-48d2-8401-1de677917d6e"
+                            },
+                            "pos": {
+                              "x": 1075.4475203446,
+                              "y": 2248.3090476143
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "af01cfcb-b356-413d-8a8d-19298fc2b191"
+                            },
+                            "pos": {
+                              "x": 1472.3517115774,
+                              "y": 2548.8347355631
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "923a0a4c-49ab-478a-88a2-fb1c05e05d1c",
+                                "proto_name": "Add100Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "a9a85f4f-4230-4423-9289-da85269e01dc"
+                            },
+                            "pos": {
+                              "x": 1072.2423991997,
+                              "y": 3652.8561031503
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "f5a06af4-0e04-41c1-8d32-69cac554ab13",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "f0f61936-ae8e-46ad-a0b6-fec917ab5ac4"
+                                  },
+                                  {
+                                    "action": "b62c0771-9263-444e-8ac3-ff36c4224fa1"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "22769449-587b-438e-9198-7ec1b712e0c8"
+                            },
+                            "pos": {
+                              "x": 856.35171157746,
+                              "y": 2598.8347355631
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetTextContext",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Text",
+                                      "rawval": {
+                                        "value": "b2724b58-9c42-4b6b-b1d3-3bea17f5250e"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "740336e8-72ca-45fc-97bd-f54e183cf6f1"
+                            },
+                            "pos": {
+                              "x": 1027.4301512819,
+                              "y": 3755.9254226085
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                                "proto_name": "Add250Coin",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "b62c0771-9263-444e-8ac3-ff36c4224fa1"
+                            },
+                            "pos": {
+                              "x": 1087.7060291591,
+                              "y": 3047.4173129522
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f89413b6-c72f-4e78-987c-1440e94e3534"
+                            },
+                            "pos": {
+                              "x": 1467.6977269295,
+                              "y": 1993.9317883207
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "9b8ca948-b3cb-44a4-87fd-d8caad3769a9"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/UnstabbleTimeTesseract.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/UnstabbleTimeTesseract.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "29d3b024-f548-46ee-99e8-42f2bc6fb0b3"
+                            },
+                            "pos": {
+                              "x": 1103.8058001327,
+                              "y": 1211.3607010449
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "2a518529-1a13-4ace-9732-04c007fc25e2",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "3ee40605-cd4e-4813-9bc4-62ea4c468af3"
+                                  },
+                                  {
+                                    "action": "6eced002-9731-47cc-a678-34fbbadc7a32"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "e878f63d-581c-46f1-a7ff-b0cc31ccf8d6"
+                            },
+                            "pos": {
+                              "x": 850.27739919967,
+                              "y": 583.90610315027
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "64bfa470-d1eb-44ce-aa6f-ccf45af19e8a"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 2
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "2a518529-1a13-4ace-9732-04c007fc25e2"
+                            },
+                            "pos": {
+                              "x": 1090.2773991997,
+                              "y": 591.90610315027
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "524be46c-0a82-413e-a00a-23550933b3d6",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "29d3b024-f548-46ee-99e8-42f2bc6fb0b3"
+                                  },
+                                  {
+                                    "action": "660142d9-c27a-4dac-8542-e07afb9a81de"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "e34ecaba-bf9c-4c51-b009-7a0fe4c078db"
+                            },
+                            "pos": {
+                              "x": 880.05600671766,
+                              "y": 1006.9834417512
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "64bfa470-d1eb-44ce-aa6f-ccf45af19e8a"
+                            },
+                            "pos": {
+                              "x": 1492.3397132281,
+                              "y": 662.58877866569
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetShowImage",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "d7e0097d-cac4-4aee-bfae-ab00b42d2ce4"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Image",
+                                      "rawval": {
+                                        "asset": "asset/3D Asset/CoinDepan.png",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/3D Asset/CoinDepan.png"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "89e92b06-c8c2-4e35-9df9-f49ffc91e1c2"
+                            },
+                            "pos": {
+                              "x": 1088.4127459097,
+                              "y": 1717.6211510473
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "2be1bd21-36f3-4b34-972d-d521f708305f"
+                            },
+                            "pos": {
+                              "x": 1487.1807942478,
+                              "y": 796.52947249417
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "9b8ca948-b3cb-44a4-87fd-d8caad3769a9"
+                            },
+                            "pos": {
+                              "x": 1523.0164760369,
+                              "y": 1278.6822820203
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "d7e0097d-cac4-4aee-bfae-ab00b42d2ce4"
+                            },
+                            "pos": {
+                              "x": 1552.3365793189,
+                              "y": 1760.8350915464
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "e4897c97-f48c-4a1a-9ad3-0cd7485a1ef8"
+                            },
+                            "pos": {
+                              "x": 1674.5036763272,
+                              "y": 348.58345013037
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "be26cdf5-a80a-4abd-becc-21f556577179"
+                            },
+                            "pos": {
+                              "x": 1566.9966309599,
+                              "y": 2306.5147915169
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "18409c8b-fe9e-4410-9334-5a6aa38a4d09"
+                            },
+                            "pos": {
+                              "x": 1506.7275297691,
+                              "y": 2840.7922290999
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "1aa5c06e-5ed8-47a0-83f8-ab20bdb031fd"
+                            },
+                            "pos": {
+                              "x": 1503.4697405156,
+                              "y": 3471.1744496627
+                            },
+                            "type": "T_Layout"
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "73ef6e87-af83-4ba6-be5c-2c1ac4d14348"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "d76609bc-02d5-4490-9d88-7aff16850292"
+                                },
+                                {
+                                  "action": "2d8dcae2-90a6-44ad-8f7c-e9962155425f"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "1f3bab85-8648-4d01-a26f-0b9a174d30cd"
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": {
+                "value": "a7f7fd83-6bf5-4d82-957b-9920f2637fb7"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Card X3.png"
+              },
+              "name": "Image4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                },
+                "UDim_Y": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "7d97e778-1151-4d49-9df3-899fabc03569"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 171
+                },
+                "UDim_Y": {
+                  "Offect": 57
+                }
+              },
+              "Text": "GACHA",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "Prize"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "action": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                        },
+                        "pos": {
+                          "x": 312,
+                          "y": 187
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                        },
+                        "pos": {
+                          "x": 663,
+                          "y": 217
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Random",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 1
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 10
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                        },
+                        "pos": {
+                          "x": 674,
+                          "y": 374
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_TriggerCustom",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "key": "triggerNameForExecXXX",
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "ClientCustomTrigger_1"
+                                }
+                              },
+                              {
+                                "key": "cfgForExecXXX",
+                                "must": true,
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "id": {
+                          "value": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                        },
+                        "is_server": false,
+                        "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                        "pos": {
+                          "x": 325,
+                          "y": 545
+                        },
+                        "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                        },
+                        "pos": {
+                          "x": 800,
+                          "y": 541
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "AlreadyGacha"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                        },
+                        "pos": {
+                          "x": 365,
+                          "y": 727
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "4e62018f-94ef-4ab8-a1b3-fc989d31a7e6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                            },
+                            {
+                              "action": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                            },
+                            {
+                              "action": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "fa1a3215-5281-4c76-932d-62cc8c320d83"
+                      },
+                      "pos": {
+                        "x": 89,
+                        "y": 123
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 16,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "1fb46adf-2537-444b-bab0-a90bb26ed237"
+                  },
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  },
+                  "Text": "500 GOBOG COIN",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "f4ede961-fc73-4e75-b841-9100d67a2d17"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 259
+                },
+                "UDim_Y": {
+                  "Offect": 41
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "9e88df49-c624-468a-903e-8147aeaa99c5"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 96
+                },
+                "UDim_Y": {
+                  "Offect": 256
+                }
+              },
+              "Text": " &backslashn &backslashn&backslashn &backslashn&backslashn&backslashn&backslashn&backslashnG&backslashnE&backslashnT&backslashn&backslashnP&backslashnR&backslashnI&backslashnZ&backslashnE",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            }
+          ],
+          "id": {
+            "value": "770c3197-69ec-44e7-9a0e-e10cef075e8d"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+          },
+          "name": "Image3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 350
+            },
+            "UDim_Y": {
+              "Offect": 350
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "a8e40dc0-2006-4034-8bf6-51c4eddd1a72"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_Random",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "rawval": 1
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "rawval": 10
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "7d373cbe-f07c-4fe4-96d5-fa2eefbd896a"
+                },
+                "pos": {
+                  "x": 762,
+                  "y": 234
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_SetUIVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_UiVar",
+                          "rawval": "Prize"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Layout",
+                          "action": "e9fc36a3-3208-4de6-a1af-2f8c213aa111"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "action": "7d373cbe-f07c-4fe4-96d5-fa2eefbd896a"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "49523c0a-a8d3-47a5-9b75-129138857bdb"
+                },
+                "pos": {
+                  "x": 400,
+                  "y": 47
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_SetUIVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_UiVar",
+                          "rawval": "AlreadyGacha"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Layout"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Bool",
+                          "rawval": true
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "dc9b2d0c-549a-4c68-801a-713dfc955880"
+                },
+                "pos": {
+                  "x": 453,
+                  "y": 587
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_TriggerCustom",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "key": "triggerNameForExecXXX",
+                        "value": {
+                          "__OBJ_TYPE": "T_String",
+                          "rawval": "ClientCustomTrigger_1"
+                        }
+                      },
+                      {
+                        "key": "cfgForExecXXX",
+                        "must": true,
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "custom_trigger_name": "ClientCustomTrigger_1",
+                "id": {
+                  "value": "6aa07f3d-a174-405d-b9b3-adafdd8cd1b0"
+                },
+                "is_server": false,
+                "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                "pos": {
+                  "x": 413,
+                  "y": 405
+                },
+                "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "rootInstance"
+                  }
+                ],
+                "id": {
+                  "value": "e9fc36a3-3208-4de6-a1af-2f8c213aa111"
+                },
+                "pos": {
+                  "x": 757,
+                  "y": 104
+                },
+                "type": "T_Layout"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "c2ce5768-16bd-4e34-a461-58848c30cccf"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9d4e8fda-5a18-4476-a9ff-f90b616751d7"
+              },
+              "pos": {
+                "x": 134,
+                "y": 130
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "5017fa00b83705aead6684d85c261a12",
+      "triggers.bts": "d928848e8d503eb0adda36858df995a9"
+    },
+    "VERSION": "0.22"
+  }
+}

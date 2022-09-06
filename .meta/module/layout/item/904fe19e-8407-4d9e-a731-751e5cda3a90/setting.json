@@ -1,0 +1,513 @@
+{
+  "data": {
+    "md5": "603ddb36a5b1272dbd2b3d665b482b13",
+    "path": "asset/OBJECTIVEPLAYER.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "462e4720-93b3-4d7b-a5cc-eb061190ec6a"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Crush and kill other players. The number of survivor:",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetTextContext",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "c02b8f40-4d45-4e46-9222-2d226af7c652"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Text",
+                                  "action": "18f139cc-9759-40f2-a9e5-d85313933961",
+                                  "rawval": {
+                                    "value": "59d9ae5d-1e57-446c-a4d2-9bd0462fed53"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "f7ec0189-9bda-4636-be00-d8b8a0f04a08"
+                        },
+                        "pos": {
+                          "x": 625,
+                          "y": 328
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "c02b8f40-4d45-4e46-9222-2d226af7c652"
+                        },
+                        "pos": {
+                          "x": 1006,
+                          "y": 311
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Concat",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "Crush other player to victory"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "18f139cc-9759-40f2-a9e5-d85313933961"
+                        },
+                        "pos": {
+                          "x": 1011,
+                          "y": 456
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a0969ee0-af52-4cb0-b865-a4ce130eb9b5"
+                      },
+                      "type": "Trigger_WidgetCreate"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "f7ec0189-9bda-4636-be00-d8b8a0f04a08"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "be6b1c9a-00fb-4d0a-a10f-a81c2c44046d"
+                      }
+                    },
+                    "type": "Trigger_WidgetCreate"
+                  }
+                ]
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 25,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "b9b7b7a3-05fe-4ad6-9016-20e4abae2339"
+                  },
+                  "name": "Survivor",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 48
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  },
+                  "Text": "6",
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_SetTextContext",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "1c8ec07f-02e1-42b4-816c-79a5fab1504d"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Text",
+                                      "action": "c9140bcc-cff5-48b6-a229-bb259ee719c7",
+                                      "rawval": {
+                                        "value": "ead9e843-5d6a-4d59-8bae-0bd8b06130d6"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "5b17d35f-94f2-43a5-afdc-f0d2ee67b034"
+                            },
+                            "pos": {
+                              "x": 594,
+                              "y": 316
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "rootInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "1c8ec07f-02e1-42b4-816c-79a5fab1504d"
+                            },
+                            "pos": {
+                              "x": 974,
+                              "y": 332
+                            },
+                            "type": "T_Layout"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ToString",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "c9140bcc-cff5-48b6-a229-bb259ee719c7"
+                            },
+                            "pos": {
+                              "x": 985,
+                              "y": 531
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetGlobalVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_GlobalVar"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f92b7ebd-35d0-44e1-8ea6-3eb5daef9005"
+                            },
+                            "pos": {
+                              "x": 1326,
+                              "y": 468
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetGlobalVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_GlobalVar"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Var"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "b2e4ea10-2388-4a15-b896-87e20fb838db"
+                            },
+                            "pos": {
+                              "x": 638,
+                              "y": 553
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Var"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "2ff2f00f-dd7b-4270-a374-36e7742a9442"
+                            },
+                            "pos": {
+                              "x": 501,
+                              "y": 671
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "3582947b-a2ab-4343-b080-3f701e55089a"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "5b17d35f-94f2-43a5-afdc-f0d2ee67b034"
+                                },
+                                {
+                                  "action": "2ff2f00f-dd7b-4270-a374-36e7742a9442"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "747d8d2f-51b3-4013-a9a0-95f12d69a144"
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "9e1ec972-9906-4725-b229-0a894f27e6c3"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "58f41f02-7207-46a7-9e6c-b93adb32ce17"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 518
+            },
+            "UDim_Y": {
+              "Offect": 41
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "91c27c1d-5bea-4caf-a1d6-bba48a999151"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -3.8268656730652
+        },
+        "UDim_Y": {
+          "Offect": -1.9148935079575
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_DestoryWidget",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget",
+                          "action": "c50e923d-4f72-49ea-a10b-6fb1a283849c"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "f9a4e4b2-4521-4d10-a467-01ba27d2234c"
+                },
+                "pos": {
+                  "x": 355,
+                  "y": 229
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "instance"
+                  }
+                ],
+                "id": {
+                  "value": "c50e923d-4f72-49ea-a10b-6fb1a283849c"
+                },
+                "pos": {
+                  "x": 691,
+                  "y": 223
+                },
+                "type": "T_Var"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "3900a727-206c-4a90-921b-f0d8a25ca3a9"
+              },
+              "type": "Trigger_RegisterClientProto"
+            },
+            "func_name": "dESTROYWIDGET",
+            "proto_uuid": "ccc9c9a7-1954-4550-a633-e2fd258f2d4c",
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "f9a4e4b2-4521-4d10-a467-01ba27d2234c"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d95db37e-d5ea-43ba-9842-f52c21c1eb6f"
+              },
+              "pos": {
+                "x": 65,
+                "y": 110
+              }
+            },
+            "type": "Trigger_RegisterClientProto"
+          }
+        ]
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "603ddb36a5b1272dbd2b3d665b482b13",
+      "triggers.bts": "cf9932b3b0c844fdddf103aee3e772a2"
+    },
+    "VERSION": "0.22"
+  }
+}

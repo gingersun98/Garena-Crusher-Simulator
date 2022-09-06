@@ -1,0 +1,44 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Dart On A Stump/A Piece Of Wood.actor"
+    },
+    "boundingVolume": {
+      "position": {
+        "x": 0.7
+      },
+      "rotate": {
+        "z": 90
+      },
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "position": {
+        "x": 0.7
+      },
+      "rotate": {
+        "z": 90
+      },
+      "type": "Capsule"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "da646938-ea26-4635-a4a0-1972b9556a34"
+    },
+    "unAssailable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "287ea81dfe00320d23360d1b6f9574cf",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "id": {
+      "value": "5224f48f-2121-4734-a243-901a49c0dde8"
+    },
+    "name": "VictoryText",
+    "params": [
+      {
+        "param_name": "LOSSER",
+        "param_type": "T_String",
+        "param_type_old": "T_String",
+        "value": {
+          "__OBJ_TYPE": "T_String"
+        }
+      }
+    ],
+    "register_object": "layout/ca567c03-6eb1-4a09-b36d-6b7f4af0fb70/root/children/1/children/1/children/1/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

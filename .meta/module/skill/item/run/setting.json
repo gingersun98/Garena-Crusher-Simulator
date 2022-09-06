@@ -1,0 +1,33 @@
+{
+  "data": {
+    "castAction": "run",
+    "name": {
+      "value": "skill_run"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
+      "type": ""
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_跑_nor.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_跑_act.png"
+      },
+      "iconPos": {
+        "area_number": 5
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1c58f9b0921bdd2030c8fb05a6ae5fd",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

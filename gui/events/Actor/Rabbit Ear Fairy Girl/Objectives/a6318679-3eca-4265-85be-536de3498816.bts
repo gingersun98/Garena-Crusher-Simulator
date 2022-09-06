@@ -1,0 +1,3 @@
+client_e8d6762e_bfae_446e_a6d4_774ac8224a9f {
+	SetTextContext(instance = $instance, text = $p_ObjectivesPlayer)
+}

@@ -1,0 +1,3 @@
+client_4b0905e2_f580_438c_9daa_77ca990aa1a2 {
+	SetTextContext(instance = $instance, text = ToString($p_ObtainPlayer))
+}

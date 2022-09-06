@@ -1,0 +1,19 @@
+{
+  "widget": [
+    {
+      "btsKey": "2365088d-8061-42a3-b16c-7d87a032768f",
+      "md5": "7fc0e9ce65de1067b87416366be8a400",
+      "name": "Image/Text"
+    },
+    {
+      "btsKey": "1eb792a1-4c4c-4832-821c-5705a32a5eff",
+      "md5": "016a4a6c88b095b6c3b04ed143d436fd",
+      "name": "Image/Image/Survivor"
+    },
+    {
+      "btsKey": "83f05784-e8a0-40ed-8b91-81861c787c19",
+      "md5": "6aa7d293e6061408308b69e8484fd49c",
+      "name": ""
+    }
+  ]
+}

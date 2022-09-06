@@ -1,0 +1,32 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Round Bonfire/Burning Fire.actor"
+    },
+    "boundingVolume": {
+      "type": "Sector"
+    },
+    "boundingVolumeEntityCfg": {
+      "type": "Sector"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "entity_TownBonFire"
+    },
+    "unAssailable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "99cd731b7b771b8718462efd3458e62a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

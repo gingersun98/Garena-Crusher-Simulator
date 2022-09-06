@@ -1,0 +1,20 @@
+{
+  "data": {
+    "id": {
+      "value": "8ff76711-c566-4396-aad5-45d7a5209a8d"
+    },
+    "name": "Kills",
+    "params": [
+      {
+        "param_name": "JumlahKillPlayer"
+      }
+    ],
+    "register_object": "layout/ca567c03-6eb1-4a09-b36d-6b7f4af0fb70/root/children/1/children/2/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

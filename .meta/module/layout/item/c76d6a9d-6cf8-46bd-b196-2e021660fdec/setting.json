@@ -1,0 +1,1098 @@
+{
+  "data": {
+    "md5": "dd378959d777bd2207b2597e205d6463",
+    "path": "asset/PVPBattle.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 35,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a0d2e9c2-fe6d-425a-9b87-8009b3e4a6e5"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 500
+                }
+              },
+              "Text": "Do you want to join Start for PVP Battle?",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "2c77d0b9-c108-4101-9544-151b9bf33654"
+              },
+              "name": "YES",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 136
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "Text": "YES",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "9bc0c50f-859d-4770-9fbb-68ae650cd3c2",
+                            "proto_name": "MatchStart",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "b1c2ef32-a219-4ddd-9801-f36f7561038e"
+                        },
+                        "pos": {
+                          "x": 902,
+                          "y": 555
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "a6b6c5db-c369-4dba-8936-63c631025d62"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "aba7b7c2-e4ac-497c-959c-60a20a15ef35"
+                        },
+                        "pos": {
+                          "x": 651,
+                          "y": 843
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "a6b6c5db-c369-4dba-8936-63c631025d62"
+                        },
+                        "pos": {
+                          "x": 1032,
+                          "y": 882
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "7a260dfa-71a5-45be-861e-6332172e8094",
+                            "proto_name": "StartBattle",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "67227067-e783-45ed-a951-c06fd90777ef"
+                        },
+                        "pos": {
+                          "x": 688,
+                          "y": 442
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_StartTimer2",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Time",
+                                  "rawval": {
+                                    "value": 60
+                                  }
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Entity"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "__OBJ_TYPE": "Component_Sequence",
+                            "children": [
+                              {
+                                "action": "aba7b7c2-e4ac-497c-959c-60a20a15ef35"
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "647a7d27-d6ab-453a-9277-c733f6914455"
+                        },
+                        "pos": {
+                          "x": 434,
+                          "y": 551
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "e5ccd6cc-b3c0-49c8-bb68-eb33278f6db7"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            [],
+                            {
+                              "action": "67227067-e783-45ed-a951-c06fd90777ef"
+                            },
+                            [],
+                            {
+                              "action": "647a7d27-d6ab-453a-9277-c733f6914455"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "457f8e73-11a0-405d-a9a5-449c9aaef41b"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "fef8fa65-dd6e-45f6-be97-b011ce14789f"
+              },
+              "name": "NO",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.15
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 136
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "Text": "NO",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "3c458298-36cf-44a6-91e0-86bdf004da02"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "269734a9-06fd-4005-809b-16c0ace20107"
+                        },
+                        "pos": {
+                          "x": 632,
+                          "y": 342
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "3c458298-36cf-44a6-91e0-86bdf004da02"
+                        },
+                        "pos": {
+                          "x": 1024,
+                          "y": 333
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "f7a9b15f-bddf-4f27-a412-dbd4d120f327",
+                            "proto_name": "KillPlayer",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "a38bceaa-d4a6-452b-9509-2bdb469e3e64"
+                        },
+                        "pos": {
+                          "x": 609,
+                          "y": 508
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "11006fb3-8c92-47c7-a756-aa9dbc392afd"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "269734a9-06fd-4005-809b-16c0ace20107"
+                            },
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "d54dd25d-fd86-4ef4-bb2d-4643ae987d75"
+                      },
+                      "pos": {
+                        "x": 336,
+                        "y": 298
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "1f633806-42fc-41aa-91c0-960a1cfa66a0"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "9f3a1d92-6611-4898-9dad-f51a8202b4f2"
+                        },
+                        "pos": {
+                          "x": 377,
+                          "y": 237
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "instance"
+                          }
+                        ],
+                        "id": {
+                          "value": "1f633806-42fc-41aa-91c0-960a1cfa66a0"
+                        },
+                        "pos": {
+                          "x": 739,
+                          "y": 183
+                        },
+                        "type": "T_Var"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "3e905e51-fd36-4d29-8f69-c987a0d98988"
+                      },
+                      "type": "Trigger_RegisterClientProto"
+                    },
+                    "func_name": "clientMessage_11",
+                    "proto_uuid": "9e7b2337-5610-45af-bec0-d8ade4f31d78",
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "9f3a1d92-6611-4898-9dad-f51a8202b4f2"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "e2b2c7b5-7673-4918-88c3-ab007e1ea218"
+                      },
+                      "pos": {
+                        "x": 46,
+                        "y": 131
+                      }
+                    },
+                    "type": "Trigger_RegisterClientProto"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a39a1c0b-ed28-4c0f-84e6-928a17a3b5ee"
+              },
+              "name": "Text1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                }
+              },
+              "Text": "10",
+              "TextColours": {
+                "r": 255
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_ToString",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Double",
+                                  "action": "41fa320d-35b3-4f0d-9951-437a37f17285"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "9f2ab855-db53-4631-a637-5f2497abcfe5"
+                        },
+                        "pos": {
+                          "x": 757.58196235789,
+                          "y": 811.1429853614
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_StartTimer2",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Time",
+                                  "rawval": {
+                                    "value": 20
+                                  }
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 10
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Entity"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "__OBJ_TYPE": "Component_Sequence",
+                            "children": [
+                              {
+                                "action": "3ca60246-78ec-4924-8759-076460538c7a"
+                              },
+                              {
+                                "action": "b6c62e09-c251-4d91-b9e0-1af895a8f15a"
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "0c7e0229-7598-47bb-9014-26cfe1abb5a5"
+                        },
+                        "pos": {
+                          "x": 253.58196235789
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "TimeValue"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "262bd8a2-0e18-4c2b-92b0-9e873dc3970b"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "41fa320d-35b3-4f0d-9951-437a37f17285"
+                        },
+                        "pos": {
+                          "x": 1064.5819623579,
+                          "y": 852.1429853614
+                        },
+                        "type": "T_Int"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "TimeValue"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "aece8039-97c0-43f9-8afe-31c41683b034"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "e4fd38ee-1c3d-422b-ad15-a8ddcbced400"
+                        },
+                        "pos": {
+                          "x": 1269.5819623579,
+                          "y": 318.1429853614
+                        },
+                        "type": "T_Int"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "TimeValue"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "94a59c6d-07e1-4ebd-a8ac-b172ba3297b3"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "action": "40c9c70a-3196-4b58-af95-aee3634e4c23"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "3ca60246-78ec-4924-8759-076460538c7a"
+                        },
+                        "pos": {
+                          "x": 624.58196235789,
+                          "y": 143.1429853614
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_ComputeInt",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "action": "e4fd38ee-1c3d-422b-ad15-a8ddcbced400"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_BinaryOperCompute",
+                                  "rawval": "-"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 1
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "40c9c70a-3196-4b58-af95-aee3634e4c23"
+                        },
+                        "pos": {
+                          "x": 946.58196235789,
+                          "y": 349.1429853614
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetTextContext",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "bb7cc9a3-5b99-494b-bc59-7202bc20ecf9"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Text",
+                                  "action": "9f2ab855-db53-4631-a637-5f2497abcfe5",
+                                  "rawval": {
+                                    "value": "fd943c40-059e-4fc5-bfb4-0c49975b8cba"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "b6c62e09-c251-4d91-b9e0-1af895a8f15a"
+                        },
+                        "pos": {
+                          "x": 385.58196235789,
+                          "y": 706.1429853614
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "94a59c6d-07e1-4ebd-a8ac-b172ba3297b3"
+                        },
+                        "pos": {
+                          "x": 981.666,
+                          "y": 219.94875
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "aece8039-97c0-43f9-8afe-31c41683b034"
+                        },
+                        "pos": {
+                          "x": 1661.191875,
+                          "y": 328.7655
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "bb7cc9a3-5b99-494b-bc59-7202bc20ecf9"
+                        },
+                        "pos": {
+                          "x": 769.820625,
+                          "y": 678.36825
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "262bd8a2-0e18-4c2b-92b0-9e873dc3970b"
+                        },
+                        "pos": {
+                          "x": 1491.021,
+                          "y": 868.21875
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_StopTimer2",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "af791cde-0fc1-4e7b-89d6-ac814019ff76"
+                        },
+                        "pos": {
+                          "x": 203.22399629319,
+                          "y": 850.12786235623
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_If",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Condition",
+                            "children": [
+                              {
+                                "action": "aad533f7-2ada-4e30-b27b-37e42ebd44a2"
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "7a0177a9-1023-4181-9f1b-45e711f734c5"
+                        },
+                        "pos": {
+                          "x": 179.95407305351,
+                          "y": 986.64474536234
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_IfBranch",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "action": "fc2555e9-e6f4-42ee-b2f6-a030c7f06322",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "__OBJ_TYPE": "Component_Sequence",
+                            "children": [
+                              {
+                                "action": "594b0926-478c-4932-91dc-51b4f51cd2d6"
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "aad533f7-2ada-4e30-b27b-37e42ebd44a2"
+                        },
+                        "pos": {
+                          "x": 381.62674113072,
+                          "y": 1073.5191254571
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_ComputeBool",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Double",
+                                  "action": "65c85b71-8218-490c-a353-28e762d297c5"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_BinaryOperBool",
+                                  "rawval": "=="
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Double"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "fc2555e9-e6f4-42ee-b2f6-a030c7f06322"
+                        },
+                        "pos": {
+                          "x": 634.49324033521,
+                          "y": 1104.5456897767
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "TimeValue"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "b397065f-0d03-46b6-a649-d27cc69a7598"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "65c85b71-8218-490c-a353-28e762d297c5"
+                        },
+                        "pos": {
+                          "x": 1009.914668602,
+                          "y": 1102.9943615607
+                        },
+                        "type": "T_Int"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "b397065f-0d03-46b6-a649-d27cc69a7598"
+                        },
+                        "pos": {
+                          "x": 1414.8113329724,
+                          "y": 1160.3935055519
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "33ec63d1-4265-4e41-b60b-c1e066d5ef21"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "594b0926-478c-4932-91dc-51b4f51cd2d6"
+                        },
+                        "pos": {
+                          "x": 652.05,
+                          "y": 1443.75
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "33ec63d1-4265-4e41-b60b-c1e066d5ef21"
+                        },
+                        "pos": {
+                          "x": 1023.75,
+                          "y": 1473.15
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "825cb580-2c35-436e-9f5e-421357ec6dad"
+                      },
+                      "type": "Trigger_WidgetCreate"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "0c7e0229-7598-47bb-9014-26cfe1abb5a5"
+                            },
+                            {
+                              "action": "7a0177a9-1023-4181-9f1b-45e711f734c5"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "5b465a36-9a68-4a97-88d4-1c124856f0a0"
+                      },
+                      "pos": {
+                        "x": 0,
+                        "y": 183
+                      }
+                    },
+                    "type": "Trigger_WidgetCreate"
+                  }
+                ]
+              },
+              "VertFormatting": "BottomAligned",
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "4e4b64b5-ff47-4fe8-a9f4-5cd1135f1660"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Window01.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 618
+            },
+            "UDim_Y": {
+              "Offect": 422
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "132ca56a-661c-4490-bb09-f3dfc46f2a5a"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "custom_trigger_data": {
+              "name": {
+                "value": "7ed7f4d6-7e73-4f61-84a0-8f2c5d3c8c28"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f1af4194-0829-427f-92ba-2a05ead8c52a"
+              },
+              "pos": {
+                "x": 115,
+                "y": 110
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "dd378959d777bd2207b2597e205d6463",
+      "triggers.bts": "7d61aa1d449760510f5a89425d5f6e79"
+    },
+    "VERSION": "0.22"
+  }
+}

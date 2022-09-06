@@ -1,0 +1,7 @@
+WIDGET_CLICKED {
+	DestroyWidget(instance = $rootInstance)
+}
+
+client_9e7b2337_5610_45af_bec0_d8ade4f31d78 {
+	DestroyWidget(instance = $instance)
+}

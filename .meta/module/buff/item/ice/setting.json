@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/auxiliary/ice.effect"
+      },
+      "once": false
+    },
+    "continueDamage": 2,
+    "moveSpeed": -8,
+    "name": {
+      "value": "buff_ice"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f4e6a066e8907f39e8865791308c3f6a"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,9 @@
+WIDGET_CREATE {
+	StartTimer2(interval = 20, time = 10, timer = "") {
+		SetUIVar(instance = $rootInstance, key = "TimeValue", value = GetUIVar(instance = $rootInstance, key = "TimeValue") - 1)
+		SetTextContext(instance = $rootInstance, text = ToString(GetUIVar(instance = $rootInstance, key = "TimeValue")))
+	}
+	If (GetUIVar(instance = $rootInstance, key = "TimeValue") == 0) {
+		DestroyWidget(instance = $rootInstance)
+	}
+}

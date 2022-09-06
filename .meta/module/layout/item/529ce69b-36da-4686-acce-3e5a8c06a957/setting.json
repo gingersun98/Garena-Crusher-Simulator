@@ -1,0 +1,573 @@
+{
+  "data": {
+    "md5": "8de8e9ce0ae7ec27d75e0019da281d08",
+    "path": "asset/RankingWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window03.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "aebc7dda-cf10-4649-9301-a4c83636c2da"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.21
+                }
+              },
+              "Text": "Leaderboard",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "bc07eef9-f4d6-4d53-95df-60013e3f2219"
+                      },
+                      "name": "Score",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "2cb32e50-9029-48fb-9062-9a2d9f72bc8e"
+                  },
+                  "name": "TXTName1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "- / -",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "84072624-1495-49bc-9bf1-7446e9940604"
+                      },
+                      "name": "Score",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "e132a0c5-b13c-40ef-a492-8c2a2c3308a6"
+                  },
+                  "name": "TXTName2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "- / -",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "dc6bbb36-9120-48ec-b2c8-6a17d59bf006",
+                                "proto_name": "AddScore",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "b0de206c-364f-462d-95ea-938426f219e9"
+                            },
+                            "pos": {
+                              "x": 383,
+                              "y": 201
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "dc3aab61-2184-486f-a87f-25ca4f789e75"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "b0de206c-364f-462d-95ea-938426f219e9"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "38c6e344-296e-49f8-991c-ccab4b48d448"
+                          },
+                          "pos": {
+                            "x": 153,
+                            "y": 157
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "e19ba412-dd79-4bf1-99df-b43b5d19f45a"
+                      },
+                      "name": "Score",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "487586ad-f4a0-46b1-9e9d-d86924ee3b17"
+                  },
+                  "name": "TXTName3",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 128
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "- / -",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "16a6648d-dbde-4d41-ac56-90ac89301a01"
+                      },
+                      "name": "Score",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "cf83961c-c36b-4ef4-b5f3-b87f5f86dc73"
+                  },
+                  "name": "TXTName4",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 192
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "- / -",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "9daf376f-ca64-459f-8209-c0f81f1e62d9"
+                      },
+                      "name": "Score",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "115904e0-5941-4075-81c3-de0dbd9293f2"
+                  },
+                  "name": "TXTName5",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 256
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "- / -",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                }
+              ],
+              "id": {
+                "value": "9e49a829-388a-4d01-b65a-724f62cc1434"
+              },
+              "name": "VerticalLayout",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                },
+                "UDim_Y": {
+                  "Offect": 320
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "id": {
+                "value": "117c83fd-60ef-43ce-9cd2-772ff8f94fc8"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.14
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 56
+                },
+                "UDim_Y": {
+                  "Offect": 56
+                }
+              },
+              "Text": "",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                        },
+                        "pos": {
+                          "x": 328,
+                          "y": 333
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                        },
+                        "pos": {
+                          "x": 692,
+                          "y": 405
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a8072438-603e-4c31-8b8d-0a3101006496"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "864e4db7-3fbc-4386-aa87-4029f887f498"
+                      },
+                      "pos": {
+                        "x": 96,
+                        "y": 248
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": {
+            "value": "0c0c1b04-dd0f-4c35-905e-3cd178b42323"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 512
+            },
+            "UDim_Y": {
+              "Offect": 512
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "01ba8a4b-b1ee-4c7e-99f8-556c252cb69b"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "8de8e9ce0ae7ec27d75e0019da281d08",
+      "triggers.bts": "2ac1b31c202631503f422bc963731dfb"
+    },
+    "VERSION": "0.22"
+  }
+}

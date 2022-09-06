@@ -1,0 +1,760 @@
+{
+  "data": {
+    "md5": "1ef03564f408215f417faa9133364633",
+    "path": "asset/RankingWnd_1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window03.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "children": [
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "d4c0f774-8046-47be-a6cc-2a43ef14ce39"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "1.",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "0c3ab142-9124-47ad-b502-3f81443654ae"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "90e14101-693c-4cc5-8a34-147c40b4e076"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "4c6431fe-7c62-433d-b9e7-a6047b1863c9"
+                  },
+                  "name": "Num1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "0d069901-80e2-4ecc-acdd-b1da90ff6ba5"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "2.",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "a1b15b8c-4448-4309-b69d-a2d04c81d3f1"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "39622a4f-81b3-4504-8594-1854d2f58822"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "4613a659-3a12-48aa-9622-a97aea416ada"
+                  },
+                  "name": "Num2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "11746330-6fa6-4cd6-a63e-061161591fbc"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "3.",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "93dd1753-cd7a-486a-b192-ecd5db58607e"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "b2af87f2-5df2-4ffa-98f9-32f9acb2f63d"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "88aeee63-66c7-4187-b47d-e4aca329a171"
+                  },
+                  "name": "Num3",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 128
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "54c9d0a0-2fac-495f-9f73-b55ef98fb8ac"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "4.",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "6e43c015-c946-4317-b299-43ceaeefd2a0"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "3b9248a8-9bd7-43b8-b68b-2ad08ad647bc"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "dfb399db-ac00-4e66-95b1-a9e5bd4b1154"
+                  },
+                  "name": "Num4",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 192
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "48e2ea3e-b303-4b8a-b6a2-f7cb8834679d"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "5.",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "0639d4cd-5b1a-457f-b1df-ce556c3f8540"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "a8db704e-a04d-45dc-b90d-fd8cc50ad61a"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "4846a049-4d82-46be-91f4-7881e79b213c"
+                  },
+                  "name": "Num5",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 256
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "fcea706a-9596-4aca-89d2-55d8319bdc2e"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 460
+                },
+                "UDim_Y": {
+                  "Offect": 320
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a9d4025a-7c4f-4ece-9f60-3e8b0560c7a9"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.21
+                }
+              },
+              "Text": "Leaderboard",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "id": {
+                "value": "fe76857c-d27e-466f-bfb9-601eac9d0d52"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.14
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 56
+                },
+                "UDim_Y": {
+                  "Offect": 56
+                }
+              },
+              "Text": "",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                        },
+                        "pos": {
+                          "x": 328,
+                          "y": 333
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                        },
+                        "pos": {
+                          "x": 692,
+                          "y": 405
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a8072438-603e-4c31-8b8d-0a3101006496"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "864e4db7-3fbc-4386-aa87-4029f887f498"
+                      },
+                      "pos": {
+                        "x": 96,
+                        "y": 248
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": {
+            "value": "886ace19-e3d3-4e92-9c7f-2cab12eebc89"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 512
+            },
+            "UDim_Y": {
+              "Offect": 512
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 25,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "7e5163e9-cbb2-4499-afe3-ec902e407f11"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.05
+            }
+          },
+          "Text": "Cooming Soon",
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "id": {
+        "value": "56356cc8-200e-497c-bd0a-7b266199440f"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1280
+        },
+        "UDim_Y": {
+          "Offect": 720
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "1ef03564f408215f417faa9133364633",
+      "triggers.bts": "480bc48185ae5d4ddd5b39ca3259ed1d"
+    },
+    "VERSION": "0.22"
+  }
+}

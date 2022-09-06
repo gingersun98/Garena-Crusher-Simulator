@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "9e7b2337-5610-45af-bec0-d8ade4f31d78"
+    },
+    "name": "clientMessage_11",
+    "register_object": "layout/c76d6a9d-6cf8-46bd-b196-2e021660fdec/root/children/1/children/3/triggers/list/2",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

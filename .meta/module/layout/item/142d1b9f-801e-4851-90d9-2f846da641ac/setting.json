@@ -1,0 +1,46 @@
+{
+  "data": {
+    "md5": "730463562cef5ccd4e43aa6b4f84edcd",
+    "path": "asset/Actor/Soldier In White Goggles/UILeaderboard.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "ce8fe1fc-ae29-4ce9-9608-f90352b18cb9"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon31.png"
+          }
+        }
+      ],
+      "id": {
+        "value": "d04b9fbb-492d-414b-9bd4-92a4430206de"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 128
+        },
+        "UDim_Y": {
+          "Offect": 128
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "730463562cef5ccd4e43aa6b4f84edcd",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

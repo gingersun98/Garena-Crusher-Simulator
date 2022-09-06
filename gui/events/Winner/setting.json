@@ -1,0 +1,54 @@
+{
+  "widget": [
+    {
+      "btsKey": "c225db76-39e3-4c59-beaf-1360e7ea6325",
+      "md5": "df3dcf3d56a4167c010c79160b8ee5b7",
+      "name": "LEADEROARD"
+    },
+    {
+      "btsKey": "378d9c5e-b36f-4606-9411-3f5efeef682e",
+      "md5": "34842101dde7a3892848081804fb9a97",
+      "name": "Image1/ScorePlayer"
+    },
+    {
+      "btsKey": "7364c8e9-3258-4e7b-a971-67ee074778a5",
+      "md5": "dea9ffb30fd77b22640d7bff198986ca",
+      "name": "determind"
+    },
+    {
+      "btsKey": "a225a2e0-9abc-415a-b182-bbfbc09bba2a",
+      "md5": "45101383925b6e849fe912c211b391d1",
+      "name": "Image/ScorePlayer1"
+    },
+    {
+      "btsKey": "f3b8c1dc-dba3-43cf-b926-10c436af8a4c",
+      "md5": "a6ec4d1868194e6430946b4eaf8bc687",
+      "name": "Image2/ActorWindow"
+    },
+    {
+      "btsKey": "763d002c-0443-46b7-a7e2-7ba19119068a",
+      "md5": "df3dcf3d56a4167c010c79160b8ee5b7",
+      "name": "LEADEROARD/Image"
+    },
+    {
+      "btsKey": "dafd3273-bddc-496d-bd43-f4e5ffc3fa61",
+      "md5": "431a8a7b752ad8d0b72150a9ea3198e7",
+      "name": ""
+    },
+    {
+      "btsKey": "4f1ecb1d-4564-428e-baf0-0ce66fb8d267",
+      "md5": "431a8a7b752ad8d0b72150a9ea3198e7",
+      "name": "Image1/NumberCrush"
+    },
+    {
+      "btsKey": "cd267e18-d0e8-4c68-8c60-96d7b5994116",
+      "md5": "31f178b9838ab36b9368b23050b44471",
+      "name": "Image/Kills"
+    },
+    {
+      "btsKey": "9170ea86-04fd-4bd3-9457-887de37b233b",
+      "md5": "269ab90c0820f0cec46476b3623fe7f4",
+      "name": "Image/Image/Victory"
+    }
+  ]
+}

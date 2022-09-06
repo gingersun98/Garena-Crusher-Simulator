@@ -1,0 +1,46 @@
+{
+  "data": {
+    "md5": "9e9c729b0744a875de592de56897104a",
+    "path": "asset/Actor/Soldier In White Goggles/UIShop.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "dab72442-c17a-424e-825f-4b29d6d66c65"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon32.png"
+          }
+        }
+      ],
+      "id": {
+        "value": "cd80af31-df28-4e37-befb-c6164d7ad1c5"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 128
+        },
+        "UDim_Y": {
+          "Offect": 128
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "9e9c729b0744a875de592de56897104a",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

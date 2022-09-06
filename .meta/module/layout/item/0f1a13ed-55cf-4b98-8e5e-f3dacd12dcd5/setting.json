@@ -1,0 +1,18 @@
+{
+  "data": {
+    "md5": "cda4d7aac40c4b07bce58b74596c99ac",
+    "path": "asset/UIObjectives.layout",
+    "root": {
+      "id": {
+        "value": "22b68579-5f1c-4d00-8dfe-eb7477c36487"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "cda4d7aac40c4b07bce58b74596c99ac",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

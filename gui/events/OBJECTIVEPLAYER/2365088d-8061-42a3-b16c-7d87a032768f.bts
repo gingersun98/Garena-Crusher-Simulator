@@ -1,0 +1,3 @@
+WIDGET_CREATE {
+	SetTextContext(instance = $rootInstance, text = Concat(p1 = "Crush other player to victory", p2 = ""))
+}

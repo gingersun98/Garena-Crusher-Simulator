@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "162a9583-fa8e-424c-93ce-c2e68f4f964e"
+    },
+    "name": "TimerStart",
+    "register_object": "layout/db1e93e9-86a4-4aa8-be76-9447a545f55a/root/children/2/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}

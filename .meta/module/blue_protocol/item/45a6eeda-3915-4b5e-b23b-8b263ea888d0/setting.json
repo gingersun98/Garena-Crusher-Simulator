@@ -1,0 +1,20 @@
+{
+  "data": {
+    "id": {
+      "value": "45a6eeda-3915-4b5e-b23b-8b263ea888d0"
+    },
+    "name": "CrushScore",
+    "params": [
+      {
+        "param_name": "CrushingScore"
+      }
+    ],
+    "register_object": "layout/476f911d-d642-433d-a4c7-20122ca78284/root/children/1/children/1/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.22"
+  }
+}
