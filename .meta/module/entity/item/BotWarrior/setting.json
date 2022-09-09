@@ -67,8 +67,8 @@
     "girlactor": {
       "asset": "asset/Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor"
     },
-    "hpBarHeight": 0.5,
-    "hpBarWidth": 2,
+    "hideHp": false,
+    "hpBarWidth": 1.5,
     "maxHp": 300,
     "moveSpeed": 2,
     "name": {
@@ -1335,7 +1335,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bfdf7ffea833800fb0f9345e14e9dd55",
+      "setting.json": "cb2b205f2e1cd8490298743b970710e8",
       "triggers.bts": "54629f2c8169f53e616a696bbc9e215d"
     },
     "VERSION": "0.22"

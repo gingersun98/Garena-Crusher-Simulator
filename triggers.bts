@@ -205,9 +205,10 @@ server_54555797_0b11_464b_b77b_d0ece50702bf {
 }
 
 server_7a260dfa_71a5_45be_861e_6332172e8094 {
-		If (@EnterGameplay) {
+	If (@EnterGameplay) {
 		ShowTip(entity = $player, keepTime = 100, textKey = "d526d657-d5b4-4248-b291-b60a78cc7dcf", tipType = "1")
-	} ElseIf (@EnterGameplay) {
+	}
+	If (@EnterGameplay) {
 		@PlayerParticipate = GetSurvivePlayersCount()
 		MoveMapPlayerTo(map = GetStaticMap(create = true, name = "MapVillage"), newmap = "MapArena", pos = $player.LokasiSpawn)
 		@PlayerParticipate = @PlayerParticipate + 1

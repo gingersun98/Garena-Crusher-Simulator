@@ -67,8 +67,8 @@
     "girlactor": {
       "asset": "asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor"
     },
-    "hpBarHeight": 0.5,
-    "hpBarWidth": 2,
+    "hideHp": false,
+    "hpBarWidth": 1.52,
     "maxHp": 300,
     "moveSpeed": 2,
     "name": {
@@ -1336,7 +1336,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9a61bf38d3448b798d14d34c0c9f2348",
+      "setting.json": "d4516e268000197f306bd683d1533b34",
       "triggers.bts": "3d807d8719abc6b4e4212888a96cc6db"
     },
     "VERSION": "0.22"

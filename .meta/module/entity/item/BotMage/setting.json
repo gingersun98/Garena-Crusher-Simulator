@@ -67,8 +67,8 @@
     "girlactor": {
       "asset": "asset/Actor/Red Eagle Monster/Big Dog.actor"
     },
-    "hpBarHeight": 0.5,
-    "hpBarWidth": 2,
+    "hideHp": false,
+    "hpBarWidth": 1.5,
     "maxHp": 300,
     "moveSpeed": 2,
     "name": {
@@ -1296,7 +1296,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b50b8ac84f005e4835440f244c7a9310",
+      "setting.json": "34a38ea10bc2c9f9f546d16ddb6644a1",
       "triggers.bts": "0029c22f533cd912eba781fa13a4c4f8"
     },
     "VERSION": "0.22"

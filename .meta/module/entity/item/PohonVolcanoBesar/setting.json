@@ -48,7 +48,7 @@
       "asset": "asset/Mesh/Bare Brown Tree Trunk/Bare Tree Trunk.actor"
     },
     "hideName": true,
-    "maxHp": 150,
+    "maxHp": 200,
     "moveSpeed": 0,
     "name": {
       "value": "8fb84a7f-bd00-44a8-986e-74d5d2e35107"
@@ -4819,7 +4819,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ba1ee18bffeb97b9168bd71f1dd22474",
+      "setting.json": "326cae62c04c0a161d5e2b8238b9f14e",
       "triggers.bts": "7c39eb884acf19695656ccf80c232e8b"
     },
     "VERSION": "0.22"

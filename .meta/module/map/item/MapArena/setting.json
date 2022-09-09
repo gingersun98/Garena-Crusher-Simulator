@@ -2,81 +2,26 @@
   "data": {
     "box": {
       "base": {
-        "__OBJ_TYPE": "SkyBoxDynamic",
-        "items": [
-          {
-            "texture": {
-              "back": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_back.png"
-              },
-              "bottom": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_bottom.png"
-              },
-              "front": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_front.png"
-              },
-              "left": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_left.png"
-              },
-              "right": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_right.png"
-              },
-              "top": {
-                "asset": "asset/Texture/SkyBox/Common2/Sky03_top.png"
-              }
-            },
-            "time": 7
-          },
-          {
-            "texture": {
-              "back": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_back.png"
-              },
-              "bottom": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_bottom.png"
-              },
-              "front": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_front.png"
-              },
-              "left": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_left.png"
-              },
-              "right": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_right.png"
-              },
-              "top": {
-                "asset": "asset/Texture/SkyBox/Common/SkyBox_top.png"
-              }
-            },
-            "time": 12
-          },
-          {
-            "texture": {
-              "back": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_back.png"
-              },
-              "bottom": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png"
-              },
-              "front": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
-              },
-              "left": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_left.png"
-              },
-              "right": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_right.png"
-              },
-              "top": {
-                "asset": "asset/Texture/SkyBox/Night/Sky03_top.png"
-              }
-            },
-            "time": 19,
-            "transition": 1
-          }
-        ]
-      },
-      "type": "dynamic_switch"
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png"
+        }
+      }
     },
     "instances": [
       {
@@ -1519,7 +1464,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
             },
             "position": {
-              "y": 2.5
+              "y": 3.3
             }
           }
         ],
@@ -1542,7 +1487,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
             },
             "position": {
-              "y": 2.3
+              "y": 3.3
             }
           }
         ],
@@ -1570,7 +1515,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
             },
             "position": {
-              "y": 2.3
+              "y": 3.3
             }
           }
         ],
@@ -1923,7 +1868,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "aeb48b9c9fdc09b80cbfed7a2f836b83"
+      "setting.json": "35377f2f1b4e338168e413727de526bc"
     },
     "VERSION": "0.22"
   }

@@ -48,7 +48,7 @@
       "asset": "asset/Mesh/Thick Green Tree/g2044_3040_tree01.actor"
     },
     "hideName": true,
-    "maxHp": 150,
+    "maxHp": 200,
     "moveSpeed": 0,
     "name": {
       "value": "9f02d7f9-4019-41fb-9e70-a7d90cd20dbd"
@@ -4819,7 +4819,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f9129d2248e4d3409538feb843bf1342",
+      "setting.json": "859332a4f530e093dd7322445d60f914",
       "triggers.bts": "7c39eb884acf19695656ccf80c232e8b"
     },
     "VERSION": "0.22"

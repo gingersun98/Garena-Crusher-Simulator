@@ -11198,7 +11198,7 @@
                       "value": {
                         "__OBJ_TYPE": "T_Time",
                         "rawval": {
-                          "value": 200
+                          "value": 100
                         }
                       }
                     },
@@ -11224,9 +11224,7 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "459cf2b7-dd26-47e6-bf34-0e1c950e321e"
-                    },
+                    [],
                     {
                       "action": "e977a7b3-0000-4b68-b97b-8c5108bb0f42"
                     }
@@ -11383,8 +11381,8 @@
                 "value": "459cf2b7-dd26-47e6-bf34-0e1c950e321e"
               },
               "pos": {
-                "x": 401.23975807378,
-                "y": 1234.0495277928
+                "x": 500.23975807378,
+                "y": 1326.0495277928
               }
             },
             {
@@ -12203,8 +12201,8 @@
                 "value": "d39912a1-e7cb-4431-b5cd-4bd934b9d499"
               },
               "pos": {
-                "x": 790,
-                "y": 1803
+                "x": 819,
+                "y": 1770
               }
             }
           ],
@@ -13639,7 +13637,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "efec2963b88160b2a52b74bb79e25463",
-      "triggers.bts": "340c178ea6239cc34301ddb2fa9d42d9"
+      "triggers.bts": "157f0e471edb55a56d41831121b3ee63"
     },
     "VERSION": "0.22"
   }

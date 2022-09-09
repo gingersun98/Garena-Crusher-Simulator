@@ -1,6 +1,6 @@
 WIDGET_CLICKED {
 	SendToServer(msg = "server_7a260dfa_71a5_45be_861e_6332172e8094")
-	StartTimer2(interval = 60, time = 1, timer = "") {
+	StartTimer2(interval = 40, time = 1, timer = "") {
 		DestroyWidget(instance = $rootInstance)
 	}
 }

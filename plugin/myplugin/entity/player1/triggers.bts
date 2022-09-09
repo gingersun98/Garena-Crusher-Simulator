@@ -103,8 +103,7 @@ GAME_START {
 }
 
 GAME_GO {
-	StartTimer2(interval = 200, object = $obj1, time = 999, timer = "") {
-		ShowTip(entity = $obj1, keepTime = 100, textKey = ToString(@PlayerParticipate), tipType = "1")
+	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
 		If (@PlayerParticipate == 1) {
 			MoveMapPlayerTo(
 				map = GetStaticMap(create = true, name = "MapArena"),

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "dd378959d777bd2207b2597e205d6463",
+    "md5": "c1c1dbd659354a15a5e82435e1a7a758",
     "path": "asset/PVPBattle.layout",
     "root": {
       "anchor": {
@@ -132,8 +132,8 @@
                           "value": "aba7b7c2-e4ac-497c-959c-60a20a15ef35"
                         },
                         "pos": {
-                          "x": 651,
-                          "y": 843
+                          "x": 817,
+                          "y": 707
                         }
                       },
                       {
@@ -148,8 +148,8 @@
                           "value": "a6b6c5db-c369-4dba-8936-63c631025d62"
                         },
                         "pos": {
-                          "x": 1032,
-                          "y": 882
+                          "x": 1201,
+                          "y": 709
                         },
                         "type": "T_Layout"
                       },
@@ -181,7 +181,7 @@
                                 "value": {
                                   "__OBJ_TYPE": "T_Time",
                                   "rawval": {
-                                    "value": 60
+                                    "value": 40
                                   }
                                 }
                               },
@@ -1090,8 +1090,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "dd378959d777bd2207b2597e205d6463",
-      "triggers.bts": "7d61aa1d449760510f5a89425d5f6e79"
+      "layout": "c1c1dbd659354a15a5e82435e1a7a758",
+      "triggers.bts": "01fee87914b3b966eebace0d41943a1b"
     },
     "VERSION": "0.22"
   }

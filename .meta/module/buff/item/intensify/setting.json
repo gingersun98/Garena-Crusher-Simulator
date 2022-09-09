@@ -7,9 +7,8 @@
       "once": false
     },
     "damage": 6,
+    "damagePct": 1,
     "deadRemove": true,
-    "deDmgPct": 1,
-    "moveSpeed": 5.0,
     "name": {
       "value": "buff_intensify"
     },
@@ -22,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "baf43101eacb91ca567471b32002deb1"
+      "setting.json": "73ed34958ca9b1b15307b5c622ea636c"
     },
     "VERSION": "0.22"
   }

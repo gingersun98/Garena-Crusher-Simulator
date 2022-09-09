@@ -7700,11 +7700,7 @@
                   "children": [
                     {
                       "action": "fde52032-4683-4454-a484-ef6fc46dffb9"
-                    },
-                    {
-                      "action": "97e5140c-3d5a-43ab-bfd5-e0b11b431a71"
-                    },
-                    []
+                    }
                   ]
                 }
               ],
@@ -8162,8 +8158,8 @@
                 "value": "e98b2713-273b-4a40-859e-8488e5769ba2"
               },
               "pos": {
-                "x": 855.36555894697,
-                "y": 1276.0932328343
+                "x": 920.36555894697,
+                "y": 1287.0932328343
               }
             },
             {
@@ -8197,8 +8193,8 @@
                 "value": "8e2ebc0e-2d37-408d-bf3d-afed98d9919e"
               },
               "pos": {
-                "x": 572.26070920435,
-                "y": 141.49779985832
+                "x": 531.26070920435,
+                "y": 291.49779985832
               }
             },
             {
@@ -8276,8 +8272,9 @@
                 {
                   "__OBJ_TYPE": "Component_Condition",
                   "children": [
-                    [],
-                    []
+                    {
+                      "action": "97e5140c-3d5a-43ab-bfd5-e0b11b431a71"
+                    }
                   ]
                 }
               ],
@@ -8285,8 +8282,8 @@
                 "value": "3e3b8c80-ce7c-4e24-b79c-2e4ac8ad97e9"
               },
               "pos": {
-                "x": 104.00003308783,
-                "y": 1117.4003245811
+                "x": 153.00003308783,
+                "y": 1265.4003245811
               }
             },
             {
@@ -8846,7 +8843,9 @@
                   "params": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Bool"
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "96aa0699-f4a8-41dd-b5de-8581fcc339a7",
+                        "rawval": true
                       }
                     }
                   ]
@@ -8862,7 +8861,8 @@
                 "value": "c8232628-03a2-4bab-8fc0-35d6c9b1e6f4"
               },
               "pos": {
-                "x": 447
+                "x": 445,
+                "y": 1
               }
             },
             {
@@ -8884,8 +8884,7 @@
                 "value": "6a821263-d7b4-4a3f-9459-e96f0f147ad7"
               },
               "pos": {
-                "x": 878,
-                "y": 1
+                "x": 981
               },
               "type": "T_Int"
             },
@@ -8914,8 +8913,8 @@
                 "value": "f516dcdb-e08d-42af-8a91-7abde92eeeec"
               },
               "pos": {
-                "x": 365,
-                "y": 1481
+                "x": 416,
+                "y": 1514
               }
             },
             {
@@ -8929,8 +8928,8 @@
                 "value": "514599fd-91f9-4a3d-b53b-814dad3ea567"
               },
               "pos": {
-                "x": 715,
-                "y": 1553
+                "x": 759,
+                "y": 1560
               }
             },
             {
@@ -8944,8 +8943,8 @@
                 "value": "d715fedf-6c85-42f1-9f12-1c8022eb2136"
               },
               "pos": {
-                "x": 715,
-                "y": 1608
+                "x": 712,
+                "y": 1507
               }
             },
             {
@@ -9057,6 +9056,41 @@
                 "y": 1814.4894974063
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeBool",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "6a821263-d7b4-4a3f-9459-e96f0f147ad7",
+                        "rawval": 2
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperBool",
+                        "rawval": ">="
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 2
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "96aa0699-f4a8-41dd-b5de-8581fcc339a7"
+              },
+              "pos": {
+                "x": 657
+              }
             }
           ],
           "custom_trigger_data": {
@@ -9074,6 +9108,9 @@
                 "children": [
                   {
                     "action": "7ff2cf65-ae4f-43b8-9c06-18eac19dfe01"
+                  },
+                  {
+                    "action": "3e3b8c80-ce7c-4e24-b79c-2e4ac8ad97e9"
                   }
                 ]
               }
@@ -11993,7 +12030,7 @@
     "EXPORT": {
       "setting.json": "f0e2530ec0f6ba9e2d2f3525bae49c36",
       "shop.csv": "4dbbe3d39b1fcfd15531b2989fd7ee87",
-      "triggers.bts": "5ea81f82716c52759d1796554cfd307e",
+      "triggers.bts": "07428c75e3a16ca183d98c967df1ee36",
       "triggers_client.bts": "c709e7998d4e1c5adae0f75acf2df415"
     },
     "VERSION": "0.22"

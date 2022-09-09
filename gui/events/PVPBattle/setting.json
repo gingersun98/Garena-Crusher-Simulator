@@ -7,18 +7,18 @@
     },
     {
       "btsKey": "06cc18d4-d94f-4b3d-b088-6519301d3b6b",
-      "md5": "aed5a724b15cbe7904e69162b37ab30c",
+      "md5": "3ab1bbbf68f66351647dfa1acf1f3605",
       "name": "Image/YES"
-    },
-    {
-      "btsKey": "43699929-b7bf-4efa-b735-622ecfe1a96f",
-      "md5": "2fd893fc39509b7bac95f08ca4b35172",
-      "name": "Image/NO"
     },
     {
       "btsKey": "28d42205-b199-459f-a3a2-7c9eeb74de36",
       "md5": "79118a169c3047eef0c9a46a57c14a51",
       "name": "Image/Text1"
+    },
+    {
+      "btsKey": "43699929-b7bf-4efa-b735-622ecfe1a96f",
+      "md5": "2fd893fc39509b7bac95f08ca4b35172",
+      "name": "Image/NO"
     }
   ]
 }

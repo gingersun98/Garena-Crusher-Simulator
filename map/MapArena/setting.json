@@ -1526,7 +1526,7 @@
             "isTop": "true",
             "layoutFile": "Actor/Soldier In White Goggles/UIDangerZone.layout",
             "name": "SceneUI",
-            "position": "x:0 y:2.5 z:0",
+            "position": "x:0 y:3.3 z:0",
             "rangeDistance": "128",
             "rotation": "x:0 y:0 z:0",
             "size": "x:1 y:1",
@@ -1563,7 +1563,7 @@
             "isTop": "true",
             "layoutFile": "Actor/Soldier In White Goggles/UIDangerZone.layout",
             "name": "SceneUI",
-            "position": "x:0 y:2.3 z:0",
+            "position": "x:0 y:3.3 z:0",
             "rangeDistance": "128",
             "rotation": "x:0 y:0 z:0",
             "size": "x:1 y:1",
@@ -1600,7 +1600,7 @@
             "isTop": "true",
             "layoutFile": "Actor/Soldier In White Goggles/UIDangerZone.layout",
             "name": "SceneUI",
-            "position": "x:0 y:2.3 z:0",
+            "position": "x:0 y:3.3 z:0",
             "rangeDistance": "128",
             "rotation": "x:0 y:0 z:0",
             "size": "x:1 y:1",
@@ -1973,42 +1973,16 @@
   "skyBox": [
     {
       "texture": [
-        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
-      ],
-      "time": 7,
-      "transition": 0
-    },
-    {
-      "texture": [
-        "@asset/Texture/SkyBox/Common/SkyBox_right.png",
-        "@asset/Texture/SkyBox/Common/SkyBox_left.png",
-        "@asset/Texture/SkyBox/Common/SkyBox_top.png",
-        "@asset/Texture/SkyBox/Common/SkyBox_bottom.png",
-        "@asset/Texture/SkyBox/Common/SkyBox_back.png",
-        "@asset/Texture/SkyBox/Common/SkyBox_front.png"
-      ],
-      "time": 12,
-      "transition": 0
-    },
-    {
-      "texture": [
         "@asset/Texture/SkyBox/Night/Sky03_right.png",
         "@asset/Texture/SkyBox/Night/Sky03_left.png",
         "@asset/Texture/SkyBox/Night/Sky03_top.png",
         "@asset/Texture/SkyBox/Night/Sky03_bottom.png",
         "@asset/Texture/SkyBox/Night/Sky03_back.png",
         "@asset/Texture/SkyBox/Night/Sky03_front.png"
-      ],
-      "time": 19,
-      "transition": 1
+      ]
     }
   ],
-  "skyBoxMode": "dynamic_switch",
+  "skyBoxMode": "static_display",
   "skyBoxRotate": {
     "x": 0,
     "y": 0,
